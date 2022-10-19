@@ -5,3 +5,4 @@
 4-isalpha.c contains  a function that checks for alphabetic character.
 5-sign.c contains a function that prints the sign of a number.
 6-abs.c contains a function that computes the absolute value of an integer.
+7-print_last_digit.c   contains a function that prints the last digit of a number.
