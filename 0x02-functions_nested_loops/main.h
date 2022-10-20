@@ -16,6 +16,8 @@ int print_sign(int n);
 
 void print_times_table(int n);
 
+int main(void);
+
 int _abs(int);
 
 int print_last_digit(int);
