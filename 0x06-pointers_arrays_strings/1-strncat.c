@@ -4,7 +4,7 @@
  * _strncat - joins two strings with n bytes
  * @dest: copy to
  * @src: copy from
- * @n: number of char to be copied
+ * @n: noumber of char to printed
  * Return: dest
  */
 
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
-	j = o;
+	j = 0;
 	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
