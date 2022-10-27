@@ -2,9 +2,9 @@
 
 /**
  * _strncat - joins two strings with n bytes
- * @n: nomber of characters to be copied
  * @dest: copy to
  * @src: copy from
+ * @n: number of char to be copied
  * Return: dest
  */
 
