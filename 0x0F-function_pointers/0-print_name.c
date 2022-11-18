@@ -5,9 +5,10 @@
  * print_name - prints a name
  * @name: name to be printed
  * @f: pointer to the printing function
+ * Return: Always 1, On success
  */
 
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
 	if (!name || !f)
 		return;
