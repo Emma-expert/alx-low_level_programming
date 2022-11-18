@@ -2,14 +2,13 @@
 #include "function_pointers.h"
 
 /**
- * main - executes a function given as a parameter
+ * array_iterator - executes a function given as a parameter
  * on each element of an array
  * @array: array to iterate over
  * @size: size of the array
  * @action: pointer to function used
  */
-
-void main(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
